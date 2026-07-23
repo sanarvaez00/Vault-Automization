@@ -16,7 +16,12 @@ En esta corrida:
 
 Cada producto es UN borrador de: una nueva idea de capítulo, variante de plantilla, o descripción de producto que aproveche la tendencia detectada. Etiqueta cada borrador con su categoría ("Finanzas + IA" o "Nicho emergente").
 
-Guarda los borradores nuevos en la página "Borradores pendientes de aprobación" en Notion (workspace "Sistema de Finanzas Automáticas / Money on Autopilot"). Si la página no existe, créala. Inserta los borradores nuevos al INICIO del contenido existente (insert_content con position start, o replace_content reconstruyendo todo con lo nuevo arriba) — nunca borres los borradores anteriores. Encabeza cada borrador con fecha (## Borrador: YYYY-MM-DD) y su categoría. No publiques nada en Gumroad ni en ningún otro lado — solo deja los borradores listos para que yo los revise.
+Cada producto debe redactarse en DOS versiones, ambas enfocadas en la clientela y sus necesidades reales (no en la tendencia en abstracto):
+- **Versión en español** (para "Finanzas Automáticas"): tono humorístico, humano y cercano — como si un amigo con conocimiento explicara el tema, no un corporativo.
+- **Versión en inglés** (para "Money on Autopilot"): tono profesional, claro y directo — orientado a resultados y credibilidad.
+No son traducciones literales una de la otra: cada una debe sonar nativa a su tono y audiencia, aunque cubran la misma idea de producto.
+
+Guarda los borradores nuevos en la página "Borradores pendientes de aprobación" en Notion (workspace "Sistema de Finanzas Automáticas / Money on Autopilot"). Si la página no existe, créala. Inserta los borradores nuevos al INICIO del contenido existente (insert_content con position start, o replace_content reconstruyendo todo con lo nuevo arriba) — nunca borres los borradores anteriores. Encabeza cada borrador con fecha (## Borrador: YYYY-MM-DD) y su categoría, y dentro de cada uno incluye ambas versiones claramente separadas (### Versión ES (humorística) / ### Versión EN (profesional)). No publiques nada en Gumroad ni en ningún otro lado — solo deja los borradores listos para que yo los revise.
 
 IMPORTANTE: usa saltos de línea reales en el markdown que envíes a Notion, no la secuencia de escape "\n" como texto literal.
 
