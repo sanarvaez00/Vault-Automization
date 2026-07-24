@@ -16,6 +16,12 @@ En esta corrida:
 
 Cada producto es UN borrador de: una nueva idea de capítulo, variante de plantilla, o descripción de producto que aproveche la tendencia detectada. Etiqueta cada borrador con su categoría ("Finanzas + IA" o "Nicho emergente").
 
+Estos productos se venden a $13.99, así que cada borrador debe tener suficiente sustancia real para justificar ese precio — nada de ideas de una línea ni descripciones genéricas. Requisitos mínimos por producto:
+- Si es un capítulo: contenido desarrollado de verdad (no un resumen ni un esqueleto), con introducción, cuerpo con pasos o explicaciones concretas, y al menos un ejemplo numérico o caso práctico aplicado a la vida real del cliente.
+- Si es una plantilla/sistema: la estructura completa y utilizable (columnas, categorías, fórmulas o campos ya definidos, con datos de ejemplo llenos) — no solo el nombre de la plantilla, sino cómo se ve y se usa.
+- Si es una descripción de producto: debe venir acompañada de un esbozo del contenido real que incluiría (índice de secciones, qué entregables trae, qué problema específico del cliente resuelve y cómo).
+En los tres casos, piensa como el cliente que paga $13.99: ¿esto se siente completo y accionable, o se siente como una idea a medio hacer? Si al terminar el borrador se siente corto, amplíalo antes de guardarlo.
+
 Cada producto debe redactarse en DOS versiones, ambas enfocadas en la clientela y sus necesidades reales (no en la tendencia en abstracto):
 - **Versión en español** (para "Finanzas Automáticas"): tono humorístico, humano y cercano — como si un amigo con conocimiento explicara el tema, no un corporativo.
 - **Versión en inglés** (para "Money on Autopilot"): tono profesional, claro y directo — orientado a resultados y credibilidad.
