@@ -22,6 +22,13 @@ Estos productos se venden a $13.99, así que cada borrador debe tener suficiente
 - Si es una descripción de producto: debe venir acompañada de un esbozo del contenido real que incluiría (índice de secciones, qué entregables trae, qué problema específico del cliente resuelve y cómo).
 En los tres casos, piensa como el cliente que paga $13.99: ¿esto se siente completo y accionable, o se siente como una idea a medio hacer? Si al terminar el borrador se siente corto, amplíalo antes de guardarlo.
 
+Si el producto es o incluye una plantilla (ej: plantilla para hacer mejores presupuestos, tracker, calculadora, checklist estructurado), esa plantilla NO va solo descrita como texto dentro del ebook — créala como un archivo aparte, descargable, independiente del contenido del ebook:
+- Crea el archivo en la carpeta `products` dentro de C:\Users\sanar\vault-agents (créala si no existe), en formato .csv cuando sea una plantilla tipo hoja de cálculo (presupuestos, trackers, calculadoras), o .md cuando sea un checklist/sistema no tabular.
+- Nombra el archivo de forma descriptiva con fecha e idioma, ej: `products/2026-07-24-presupuesto-mensual-ES.csv` y `products/2026-07-24-presupuesto-mensual-EN.csv` (un archivo por idioma si el contenido difiere en tono/ejemplos, igual que las dos versiones del ebook).
+- El archivo debe tener contenido real y listo para usar (columnas/filas ya definidas, categorías, y al menos una fila de datos de ejemplo) — no un placeholder vacío.
+- En el borrador de Notion, no repitas la plantilla completa: solo referencia el nombre del archivo, en qué carpeta del repo vive, y una descripción breve de qué contiene y cómo se usa.
+- Agrega estos archivos nuevos al mismo `git add`/commit/push de esta corrida (junto con vault-data.json).
+
 Cada producto debe redactarse en DOS versiones, ambas enfocadas en la clientela y sus necesidades reales (no en la tendencia en abstracto):
 - **Versión en español** (para "Finanzas Automáticas"): tono humorístico, humano y cercano — como si un amigo con conocimiento explicara el tema, no un corporativo.
 - **Versión en inglés** (para "Money on Autopilot"): tono profesional, claro y directo — orientado a resultados y credibilidad.
@@ -36,8 +43,8 @@ Al terminar, actualiza vault-data.json: incrementa products_finance_count y/o pr
 Si no generaste ningún producto (porque ya se alcanzó la meta de 15 este mes), no hagas commit ni push — no hay cambios que subir.
 
 Si sí generaste al menos un producto, ejecuta en la terminal desde esta carpeta:
-1. git add vault-data.json
-2. git commit -m "chore: actualizar contador de productos [fecha de hoy]"
+1. git add vault-data.json products/
+2. git commit -m "chore: actualizar contador de productos y agregar plantillas [fecha de hoy]"
 3. git push
 
 Ejecuta todo esto sin pedir confirmación.
